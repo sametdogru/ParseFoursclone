@@ -9,19 +9,38 @@
 import UIKit
 import Parse
 
-class signInVC: UIViewController {
+class signVC: UIViewController ,UITextFieldDelegate {
 
-    @IBOutlet weak var usernameText: UITextField!
-    
-    @IBOutlet weak var passwordText: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+ 
+        setUI()
+        
+        self.usernameText.delegate = self
+        self.passwordText.delegate = self
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(signVC.dismissKeyboard))
+   
+        view.addGestureRecognizer(tap)
+        
     }
     
-
-    @IBAction func signInClicked(_ sender: Any) {
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    func setUI() {
+        userNameView.layer.cornerRadius = 21
+        passwordView.layer.cornerRadius = 21
+        loginClicked.layer.cornerRadius = 21
+        signUpClicked.layer.cornerRadius = 21
+        
+    }
+    
+    @IBAction func loginClicked(_ sender: Any) {
         if usernameText.text != "" && passwordText.text != "" {
             PFUser.logInWithUsername(inBackground: self.usernameText.text!, password: self.passwordText.text!) { (user, error) in
                 if error != nil {
@@ -31,7 +50,8 @@ class signInVC: UIViewController {
                     self.present(alert, animated: true
                         , completion: nil)
                 } else {
-                   UserDefaults.standard.set(self.usernameText.text!, forKey: "user")
+
+                    UserDefaults.standard.set(self.usernameText.text!, forKey: "user")
                     UserDefaults.standard.synchronize()
                     
                     let delegate : AppDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -46,15 +66,13 @@ class signInVC: UIViewController {
                 , completion: nil)
         }
     }
-        
-
+     
     @IBAction func signUpClicked(_ sender: Any) {
-        
         if usernameText.text != "" && passwordText.text != "" {
             
             let user = PFUser()
-            user.username = usernameText.text!
-            user.password = passwordText.text!
+            user.username = usernameText.text
+            user.password = passwordText.text
             
             user.signUpInBackground { (success, error) in
                 if error != nil {
@@ -79,6 +97,27 @@ class signInVC: UIViewController {
             self.present(alert, animated: true
                 , completion: nil)
         }
+            
+    }
 
-    }}
+    // UITextField Delegates
+  
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    @IBOutlet weak var usernameText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var loginClicked: UIButton!
+    @IBOutlet weak var signUpClicked: UIButton!
+    @IBOutlet weak var userNameView: UIView!
+    @IBOutlet weak var passwordView: UIView!
+    
+    
+    
+    
+    
+   }
 

@@ -92,7 +92,7 @@
 		52752B43229D6D2500F293BF /* ParseFoursclone1 */ = {
 			isa = PBXGroup;
 			children = (
-				52C4226E22AD6D3C00369328 /* New Group */,
+				52C4226E22AD6D3C00369328 /* images */,
 				52752B44229D6D2500F293BF /* AppDelegate.swift */,
 				52752B48229D6D2500F293BF /* Main.storyboard */,
 				52752B6022A5A4FD00F293BF /* signVC.swift */,
@@ -107,7 +107,7 @@
 			path = ParseFoursclone1;
 			sourceTree = "<group>";
 		};
-		52C4226E22AD6D3C00369328 /* New Group */ = {
+		52C4226E22AD6D3C00369328 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				52C4226622AD34CF00369328 /* images.jpeg */,
@@ -118,7 +118,7 @@
 				52D7DBAB22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png */,
 				52C4225A22ABEF6400369328 /* foursquare.png */,
 			);
-			name = "New Group";
+			name = images;
 			sourceTree = "<group>";
 		};
 		C159D721D1FB083C5CA5186F /* Frameworks */ = {
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFours" */;
+			buildConfigurationList = 52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFoursclone1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -446,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFours" */ = {
+		52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFoursclone1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52752B51229D6D2700F293BF /* Debug */,
