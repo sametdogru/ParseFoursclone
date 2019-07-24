@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		52752B45229D6D2500F293BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B44229D6D2500F293BF /* AppDelegate.swift */; };
-		52752B47229D6D2500F293BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B46229D6D2500F293BF /* ViewController.swift */; };
 		52752B4A229D6D2500F293BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52752B48229D6D2500F293BF /* Main.storyboard */; };
 		52752B4C229D6D2700F293BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52752B4B229D6D2700F293BF /* Assets.xcassets */; };
 		52752B4F229D6D2700F293BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52752B4D229D6D2700F293BF /* LaunchScreen.storyboard */; };
+		52752B59229D700000F293BF /* placesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B58229D700000F293BF /* placesVC.swift */; };
+		52752B5B229D700A00F293BF /* imageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B5A229D700A00F293BF /* imageVC.swift */; };
+		52752B5D229D701700F293BF /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B5C229D701700F293BF /* mapVC.swift */; };
+		52752B5F229D702300F293BF /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B5E229D702300F293BF /* detailsVC.swift */; };
+		52752B6122A5A4FD00F293BF /* signVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52752B6022A5A4FD00F293BF /* signVC.swift */; };
+		52C4225B22ABEF6400369328 /* foursquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C4225A22ABEF6400369328 /* foursquare.png */; };
+		52C4225F22AC69F600369328 /* icons8-contacts-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C4225E22AC69F500369328 /* icons8-contacts-512.png */; };
+		52C4226122AC6C0500369328 /* privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C4226022AC6C0500369328 /* privacy.png */; };
+		52C4226522AD32DF00369328 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52C4226422AD32DF00369328 /* back.jpg */; };
+		52C4226722AD34CF00369328 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52C4226622AD34CF00369328 /* images.jpeg */; };
+		52C4226D22AD36C600369328 /* Noon to Dusk.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C4226C22AD36C600369328 /* Noon to Dusk.png */; };
+		52D7DBAC22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7DBAB22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png */; };
+		E8D0EE6E9986802AC021D239 /* Pods_ParseFoursclone1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8AF377ED7FAC573C5C8604 /* Pods_ParseFoursclone1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D8AF377ED7FAC573C5C8604 /* Pods_ParseFoursclone1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseFoursclone1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52752B41229D6D2500F293BF /* ParseFoursclone1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseFoursclone1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52752B44229D6D2500F293BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52752B46229D6D2500F293BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52752B49229D6D2500F293BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52752B4B229D6D2700F293BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52752B4E229D6D2700F293BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52752B50229D6D2700F293BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52752B58229D700000F293BF /* placesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesVC.swift; sourceTree = "<group>"; };
+		52752B5A229D700A00F293BF /* imageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageVC.swift; sourceTree = "<group>"; };
+		52752B5C229D701700F293BF /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
+		52752B5E229D702300F293BF /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		52752B6022A5A4FD00F293BF /* signVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signVC.swift; sourceTree = "<group>"; };
+		52C4225A22ABEF6400369328 /* foursquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foursquare.png; sourceTree = "<group>"; };
+		52C4225E22AC69F500369328 /* icons8-contacts-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-contacts-512.png"; sourceTree = "<group>"; };
+		52C4226022AC6C0500369328 /* privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = privacy.png; sourceTree = "<group>"; };
+		52C4226422AD32DF00369328 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		52C4226622AD34CF00369328 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		52C4226C22AD36C600369328 /* Noon to Dusk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noon to Dusk.png"; sourceTree = "<group>"; };
+		52D7DBAB22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16743100117_721c5f781a3cdf6d06f9_512.png; sourceTree = "<group>"; };
+		BDA57FE95777CE15F30AFA97 /* Pods-ParseFoursclone1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFoursclone1.debug.xcconfig"; path = "Target Support Files/Pods-ParseFoursclone1/Pods-ParseFoursclone1.debug.xcconfig"; sourceTree = "<group>"; };
+		FB04A571E49DE6D18EC23752 /* Pods-ParseFoursclone1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseFoursclone1.release.xcconfig"; path = "Target Support Files/Pods-ParseFoursclone1/Pods-ParseFoursclone1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D0EE6E9986802AC021D239 /* Pods_ParseFoursclone1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A134900B11DF5509981908C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDA57FE95777CE15F30AFA97 /* Pods-ParseFoursclone1.debug.xcconfig */,
+				FB04A571E49DE6D18EC23752 /* Pods-ParseFoursclone1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52752B38229D6D2500F293BF = {
 			isa = PBXGroup;
 			children = (
 				52752B43229D6D2500F293BF /* ParseFoursclone1 */,
 				52752B42229D6D2500F293BF /* Products */,
+				2A134900B11DF5509981908C /* Pods */,
+				C159D721D1FB083C5CA5186F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,41 @@
 		52752B43229D6D2500F293BF /* ParseFoursclone1 */ = {
 			isa = PBXGroup;
 			children = (
+				52C4226E22AD6D3C00369328 /* New Group */,
 				52752B44229D6D2500F293BF /* AppDelegate.swift */,
-				52752B46229D6D2500F293BF /* ViewController.swift */,
 				52752B48229D6D2500F293BF /* Main.storyboard */,
+				52752B6022A5A4FD00F293BF /* signVC.swift */,
+				52752B58229D700000F293BF /* placesVC.swift */,
+				52752B5A229D700A00F293BF /* imageVC.swift */,
+				52752B5C229D701700F293BF /* mapVC.swift */,
+				52752B5E229D702300F293BF /* detailsVC.swift */,
 				52752B4B229D6D2700F293BF /* Assets.xcassets */,
 				52752B4D229D6D2700F293BF /* LaunchScreen.storyboard */,
 				52752B50229D6D2700F293BF /* Info.plist */,
 			);
 			path = ParseFoursclone1;
+			sourceTree = "<group>";
+		};
+		52C4226E22AD6D3C00369328 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				52C4226622AD34CF00369328 /* images.jpeg */,
+				52C4226C22AD36C600369328 /* Noon to Dusk.png */,
+				52C4226422AD32DF00369328 /* back.jpg */,
+				52C4226022AC6C0500369328 /* privacy.png */,
+				52C4225E22AC69F500369328 /* icons8-contacts-512.png */,
+				52D7DBAB22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png */,
+				52C4225A22ABEF6400369328 /* foursquare.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		C159D721D1FB083C5CA5186F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D8AF377ED7FAC573C5C8604 /* Pods_ParseFoursclone1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52752B53229D6D2700F293BF /* Build configuration list for PBXNativeTarget "ParseFoursclone1" */;
 			buildPhases = (
+				A992FD668BB7B65C700C8FFA /* [CP] Check Pods Manifest.lock */,
 				52752B3D229D6D2500F293BF /* Sources */,
 				52752B3E229D6D2500F293BF /* Frameworks */,
 				52752B3F229D6D2500F293BF /* Resources */,
+				7934316A70C6A70C914FBA6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFoursclone1" */;
+			buildConfigurationList = 52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFours" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C4226522AD32DF00369328 /* back.jpg in Resources */,
+				52C4226722AD34CF00369328 /* images.jpeg in Resources */,
+				52C4226122AC6C0500369328 /* privacy.png in Resources */,
 				52752B4F229D6D2700F293BF /* LaunchScreen.storyboard in Resources */,
+				52D7DBAC22C0366A00E3BA9E /* 16743100117_721c5f781a3cdf6d06f9_512.png in Resources */,
+				52C4225B22ABEF6400369328 /* foursquare.png in Resources */,
+				52C4226D22AD36C600369328 /* Noon to Dusk.png in Resources */,
+				52C4225F22AC69F600369328 /* icons8-contacts-512.png in Resources */,
 				52752B4C229D6D2700F293BF /* Assets.xcassets in Resources */,
 				52752B4A229D6D2500F293BF /* Main.storyboard in Resources */,
 			);
@@ -130,13 +204,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7934316A70C6A70C914FBA6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseFoursclone1/Pods-ParseFoursclone1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParseFoursclone1/Pods-ParseFoursclone1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A992FD668BB7B65C700C8FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseFoursclone1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52752B3D229D6D2500F293BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52752B47229D6D2500F293BF /* ViewController.swift in Sources */,
+				52752B5D229D701700F293BF /* mapVC.swift in Sources */,
+				52752B5F229D702300F293BF /* detailsVC.swift in Sources */,
+				52752B5B229D700A00F293BF /* imageVC.swift in Sources */,
 				52752B45229D6D2500F293BF /* AppDelegate.swift in Sources */,
+				52752B6122A5A4FD00F293BF /* signVC.swift in Sources */,
+				52752B59229D700000F293BF /* placesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,15 +407,17 @@
 		};
 		52752B54229D6D2700F293BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA57FE95777CE15F30AFA97 /* Pods-ParseFoursclone1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4R8KTZYTT;
 				INFOPLIST_FILE = ParseFoursclone1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = samet.ParseFoursclone1;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.calculator.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +426,17 @@
 		};
 		52752B55229D6D2700F293BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB04A571E49DE6D18EC23752 /* Pods-ParseFoursclone1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4R8KTZYTT;
 				INFOPLIST_FILE = ParseFoursclone1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = samet.ParseFoursclone1;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.calculator.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFoursclone1" */ = {
+		52752B3C229D6D2500F293BF /* Build configuration list for PBXProject "ParseFours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52752B51229D6D2700F293BF /* Debug */,
